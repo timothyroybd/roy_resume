@@ -1,10 +1,62 @@
+
+/* ===============
+    General Code
+  ================ */
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+font-size: 1.3rem; 
+/* display: flex; */
+}
 .center {
   text-align: center;
 }
 .icon_style {
-  color: blue;
+  
 }
+/* :root {
+  --sidebar-width: 380px;
+} */
 
+/* ===============
+    Navigation Bar
+  ================= */
+.nav_menu ul {
+  list-style-type: none;
+}
+.nav_menu ul li{
+  font-size: 1.7rem;
+}
+header > p {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+}
+.container {
+  display: flex;
+  width:100%;
+}
+.fixed_left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 350px;
+  height: 100%;
+  /* box-sizing: border-box;
+  overflow-y: auto;
+  overflow-wrap: break-word; */
+}
+.main_content {
+  margin-left: 360px;
+  padding: 20px;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+.header {
+  padding: 0 40px;
+}
 
 
 
