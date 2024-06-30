@@ -13,34 +13,42 @@ function App() {
     <div className = "container">
       
       <header className ="fixed_left header">
-        <img src={tim} width="300px"></img>
-        <p>Timothy Roy</p>
-        <div>
-          <a href="https://github.com/timothyroybd">
-            {' '}
-            <FontAwesomeIcon icon={faGithub} className="icon_style" />
-          </a>
+        <div className='center'>
+           <img src={tim} width="300px"></img>
         </div>
-        <div>
-          <a href="https://www.linkedin.com/in/timothy-roy-266612121/">
-            <FontAwesomeIcon icon={faLinkedinIn} className="icon_style" />
-          </a>
-        </div>
-        <address>
-            <div>
-              <FontAwesomeIcon icon={faEnvelope} className="icon_style" />
+       
+        <p className='center'>Timothy Roy</p>
+         <address>
+          <div className='center contact'>
+            <div  >
+              {/* <FontAwesomeIcon icon={faEnvelope} className="icon_style" /> */}
               <a href="mailto: timothyroy2011@gmail.com">
                 timothyroy2011@gmail.com
               </a>
             </div>
-            <div>
-              <FontAwesomeIcon
+            <div  >
+              {/* <FontAwesomeIcon
                 icon={faMobileScreenButton}
                 className="icon_style"
-              />
+              /> */}
               <span>+43 677 64817987</span>
             </div>
+            </div>
           </address>
+        <div className='icons_container center'>
+        <div  className='icon_wrapper'>
+          <a href="https://github.com/timothyroybd">
+            {' '}
+            <FontAwesomeIcon icon={faGithub} className="icon_style" />
+          </a>
+        </div >
+        <div className='icon_wrapper'>
+          <a href="https://www.linkedin.com/in/timothy-roy-266612121/">
+            <FontAwesomeIcon icon={faLinkedinIn} className="icon_style" />
+          </a>
+        </div>
+        </div>
+       
 
         <nav className="nav_menu">
           <ul>
@@ -48,17 +56,15 @@ function App() {
             <li> Skills </li>
             <li> Portfolio </li>
             <li> Education </li>
-            <li> Contact Form </li>
+            <li> Download CV </li>
+            <li> Contact Me </li>
           </ul>
 
           
         </nav>
 
        
-        <div>
-          <button> Download CV</button>
-          <button> Contact Me!</button>
-        </div>
+        
       </header>
 <main className ="main_content">
 
