@@ -1,4 +1,14 @@
 /* ===============
+    Unsued code
+  ================ */
+/* .img_wrapper{
+    
+  }
+header> img {
+  max-width: 100%;
+  max-height: 100%;
+} */
+/* ===============
     General Code
   ================ */
 
@@ -7,13 +17,42 @@
   padding: 0;
 }
 body {
-  font-size: 1.3rem;
+  font-size: 1.32rem;
   /* display: flex; */
-
+}
+h1 {
+  font-size: 2.75rem;
+  color: var(--header-background);
+  padding: 25px 0;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+ul {
+  list-style-type: circle;
 }
 .container {
   display: flex;
   width: 100%;
+}
+.fixed_left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: var(--sidebar-width);
+  height: 100%;
+  /* box-sizing: border-box;
+  overflow-y: auto;
+  overflow-wrap: break-word; */
+}
+.main_content {
+  margin-left: 360px;
+  
+  padding: 20px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  max-width: 890px;
 }
 .center {
   text-align: center;
@@ -21,32 +60,27 @@ body {
 
 :root {
   --sidebar-width: 305px;
-  --header-background: #4b406a ;
+  --header-background: #4b406a;
   --header-background-hover: #72639fbd;
   --font-color: #a9a9a9e7;
 }
 
+
+
 /* ===============
     Navigation Bar
   ================= */
-/* .img_wrapper{
-    
-  }
-header> img {
-  max-width: 100%;
-  max-height: 100%;
-} */
+
+
 .header {
-  
   background-color: var(--header-background);
-  
+
   color: white;
 }
-header>p {
+header > p {
   margin: 0;
   padding: 100px 0 0 25px;
   font-size: 3rem;
-
 }
 
 .icon_container {
@@ -59,69 +93,60 @@ header>p {
 }
 
 .nav_menu {
-}
-.nav_menu ul {
   list-style-type: none;
-   padding-top: 65px; 
-  cursor: pointer;
+  padding-top: 65px;
+  /* cursor: pointer; */
 }
-.nav_menu ul li {
+.nav_menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
   font-size: 1.6rem;
-
-
   padding: 10px 0 10px 25px;
   margin: 3px 0;
   transition: background-color 0.2s ease-in;
 }
-.nav_menu ul li:hover{
+.nav_menu a:hover {
   background-color: var(--header-background-hover);
 }
 
-
-
-
-
-.contact {
-  padding-bottom: 5px;
+/* ===============
+    About Me
+  ================= */
+#about_me  {
+  
+ 
+  line-height: 1.5;
+  border-bottom: 1px solid var(--header-background);
 }
-.contact a {
-  display: inline-block;
-  /* padding: 2px 0; */
+#about_me>p {
+  padding-bottom: 15px;
 }
-.contact a,
-span {
-  font-style: normal;
-  color: #8271C1;
-}
-
-
-
-
-
-
-
-
-
-.fixed_left {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: var(--sidebar-width);
-  height: 100%;
-  /* box-sizing: border-box;
-  overflow-y: auto;
-  overflow-wrap: break-word; */
-}
-
-
 
 /* ===============
-    Main Content
+    Experience
   ================= */
+#experience span {
+ font-size: 1.2rem;
+ color: #59526fbd;
+}
+#experience ul {
+  padding: 15px 30px;
+  
 
-.main_content {
-  margin-left: 325px;
+}
+#experience ul li {
+  padding-bottom: 15px;
+  
+}
+
+/* ===============
+    Skills
+  ================= */
+.flex_container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flex-item {
   padding: 20px;
-  flex-grow: 1;
-  box-sizing: border-box;
 }

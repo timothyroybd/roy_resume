@@ -3,9 +3,17 @@ import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMobileScreenButton } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-
+import { faHtml5 } from '@fortawesome/free-brands-svg-icons/faHtml5';
+import { faCss3 } from '@fortawesome/free-brands-svg-icons';
+import { faJs } from '@fortawesome/free-brands-svg-icons';
+import { faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import { faRProject } from '@fortawesome/free-brands-svg-icons';
+import { faPython } from '@fortawesome/free-brands-svg-icons';
+import { faSquareRootVariable } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+import { faWordpress } from '@fortawesome/free-brands-svg-icons';
 import tim from './resources/tim.png';
 function App() {
   return (
@@ -29,14 +37,15 @@ function App() {
        
 
         <nav className="nav_menu">
-          <ul>
-            <li> Experience </li>
-            <li> Skills </li>
-            <li> Portfolio </li>
-            <li> Education </li>
-            <li> Download CV </li>
-           
-          </ul>
+          
+            <a href= "#about_me"> About Me  </a>
+            <a href= "#experience"> Experience </a>
+            <a href= "#skills"> Skills  </a>
+            <a href= "#about_me"> Portfolio  </a>
+            <a href= "#about_me"> Education</a>
+            <a href= "#about_me"> CV PDF</a>
+                  
+         
 
           
         </nav>
@@ -46,20 +55,22 @@ function App() {
       </header>
 <main className ="main_content">
 
-   <article>
+   <article id ="about_me">
+    <h1> About Me</h1>
           <p>
             As an IT Manager with over 2 years of experience and an MSc in
             Business Analytics, I'm now transitioning into sfotware development
             and data analytics field. I am a self-taught software developer who
             is proficient in HTML5, CSS3, JavaScript, React, Node.js, Python, R,
             SQL. Passionate about continuous learning and innovation, I'm eager
-            to bring my skills to exciting web development projects.
+            to bring my skills to exciting software and analytics projects.
           </p>
         </article>
-      <section>
+      <section id = "experience">
+        <h1>Experience</h1>
         <div>
-          <h1> IT Manager - Plastrans Technologies </h1>
-          <p> May 2022 - Present</p>
+          <h2> IT Manager - Plastrans Technologies </h2>
+          <span> May 2022 - Present</span>
           <ul>
             <li>
               Oversee and maintain Plastrans' comprehensive IT infrastructure
@@ -84,7 +95,7 @@ function App() {
         </div>
         <div>
           <h2> eCommerce Specialist - Brikly </h2>
-          <p> May 2020 - April 2022</p>
+          <span> May 2020 - April 2022</span>
           <ul>
             <li>Created eCommerce websites using Shopify</li>
             <li>
@@ -100,38 +111,74 @@ function App() {
         </div>
       </section>
 
-      <section>
-        <div>
-          <h1>Development</h1>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>CMS</li>
-            <li>Github</li>
-          </ul>
+      <section id ="skills">
+        <h1> Skills</h1>
+
+        <div className='flex_container'>
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faHtml5} />
+        <p>HTML5</p>  
         </div>
-        <div>
-          <h1>Data Analytics</h1>
-          <ul>
-            <li>R</li>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Statistics</li>
-          </ul>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faCss3} />
+        <p>CSS3</p>  
         </div>
-        <div>
-          <h1>Soft Skills</h1>
-          <ul>
-            <li>Effective communication</li>
-            <li>Problem-solving</li>
-            <li>Critical thinking</li>
-            <li>Adaptability</li>
-            <li>Team work</li>
-          </ul>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faJs} />
+        <p>JavaScript</p>  
         </div>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faReact} />
+        <p>React</p>  
+        </div>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faNodeJs} />
+        <p>Node.JS</p>  
+        </div>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faWordpress} />
+        <p>Wordpress</p>  
+        </div>
+
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faGithub} />
+        <p>Github</p>  
+        </div>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faPython} />
+        <p>Python</p>  
+        </div>
+
+          <div className ='flex-item'>
+        <FontAwesomeIcon icon={faRProject} />
+        <p>R Programming</p>  
+        </div>
+
+        <div className ='flex-item'>
+        <FontAwesomeIcon icon={faDatabase} />
+        <p>SQL</p>  
+        </div>
+
+        <div className='flex-item'>
+        <FontAwesomeIcon icon={faSquareRootVariable} />
+        <p>Statistics</p>  
+        </div>
+          
+        </div>
+
+        
+       
+        
+        
+
+        
       </section>
 
       <section>
