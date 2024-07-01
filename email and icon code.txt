@@ -1,0 +1,30 @@
+<address>
+          <div className='contact'>
+            <div  >
+              {/* <FontAwesomeIcon icon={faEnvelope} className="icon_style" /> */}
+              <a href="mailto: timothyroy2011@gmail.com">
+                timothyroy2011@gmail.com
+              </a>
+            </div>
+            <div  >
+              {/* <FontAwesomeIcon
+                icon={faMobileScreenButton}
+                className="icon_style"
+              /> */}
+              <span>+43 677 64817987</span>
+            </div>
+            </div>
+          </address>
+        <div className='icons_container '>
+        <div  className='icon_wrapper'>
+          <a href="https://github.com/timothyroybd">
+            {' '}
+            <FontAwesomeIcon icon={faGithub} className="icon_style" />
+          </a>
+        </div >
+        <div className='icon_wrapper'>
+          <a href="https://www.linkedin.com/in/timothy-roy-266612121/">
+            <FontAwesomeIcon icon={faLinkedinIn} className="icon_style" />
+          </a>
+        </div>
+        </div>

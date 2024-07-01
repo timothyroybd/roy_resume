@@ -13,41 +13,19 @@ function App() {
     <div className = "container">
       
       <header className ="fixed_left header">
-        <div className='center'>
+        {/* <div >
            <img src={tim} width="300px"></img>
-        </div>
+        </div> */}
        
-        <p className='center'>Timothy Roy</p>
-         <address>
-          <div className='center contact'>
-            <div  >
-              {/* <FontAwesomeIcon icon={faEnvelope} className="icon_style" /> */}
-              <a href="mailto: timothyroy2011@gmail.com">
-                timothyroy2011@gmail.com
-              </a>
-            </div>
-            <div  >
-              {/* <FontAwesomeIcon
-                icon={faMobileScreenButton}
-                className="icon_style"
-              /> */}
-              <span>+43 677 64817987</span>
-            </div>
-            </div>
-          </address>
-        <div className='icons_container center'>
-        <div  className='icon_wrapper'>
-          <a href="https://github.com/timothyroybd">
-            {' '}
-            <FontAwesomeIcon icon={faGithub} className="icon_style" />
-          </a>
-        </div >
-        <div className='icon_wrapper'>
-          <a href="https://www.linkedin.com/in/timothy-roy-266612121/">
-            <FontAwesomeIcon icon={faLinkedinIn} className="icon_style" />
-          </a>
+        <p >Timothy Roy</p>
+        <div className='icon_container'>
+           <a href = "mailto:timothyroy2011@gmail.com"><FontAwesomeIcon icon = {faEnvelope} /></a>
+          <a href = "https://github.com/timothyroybd"><FontAwesomeIcon icon = {faLinkedinIn} /></a>
+          <a href = "https://www.linkedin.com/in/timothy-roy-266612121/"><FontAwesomeIcon icon = {faGithub} /></a>
+         
         </div>
-        </div>
+        
+         
        
 
         <nav className="nav_menu">
@@ -57,7 +35,7 @@ function App() {
             <li> Portfolio </li>
             <li> Education </li>
             <li> Download CV </li>
-            <li> Contact Me </li>
+           
           </ul>
 
           
