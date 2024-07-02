@@ -14,7 +14,10 @@ import { faPython } from '@fortawesome/free-brands-svg-icons';
 import { faSquareRootVariable } from '@fortawesome/free-solid-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { faWordpress } from '@fortawesome/free-brands-svg-icons';
+import stock from "./resources/stock.svg"
 import tim from './resources/tim.png';
+import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
+import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 function App() {
   return (
     
@@ -41,7 +44,7 @@ function App() {
             <a href= "#about_me"> About Me  </a>
             <a href= "#experience"> Experience </a>
             <a href= "#skills"> Skills  </a>
-            <a href= "#about_me"> Portfolio  </a>
+            <a href= "#project"> Projects  </a>
             <a href= "#about_me"> Education</a>
             <a href= "#about_me"> CV PDF</a>
                   
@@ -181,11 +184,57 @@ function App() {
         
       </section>
 
-      <section>
-        <div>
-          <div>Project 1</div>
-          <div>Project 2</div>
-          <div>Project 3</div>
+      <section id ="project">
+        <h1>Projects</h1>
+        <div className='flex_container'>
+          <div className='flex-item'>
+            <div className='project_item'>
+              <FontAwesomeIcon icon={faArrowTrendUp} className='project_icon' />
+             
+              <div className='project_desc'>
+              <a href="#"> Stock visualization</a>
+              <p> 
+                Coming soon!
+
+              </p>
+              </div>
+             
+              
+            </div>
+            
+            
+            </div>
+             <div className='flex-item'>
+            <div className='project_item'>
+              <FontAwesomeIcon icon={faLayerGroup} className='project_icon' />
+            
+             <div className='project_desc'>
+              <a href="#">Full Stack Application</a>
+              <p> 
+                Coming soon!
+              </p>
+              </div>
+             
+            </div>
+            
+            
+            </div>
+             <div className='flex-item'>
+            <div className='project_item'>
+              <FontAwesomeIcon icon={faLayerGroup} className='project_icon' />
+             
+              <div className='project_desc'>
+              <a href="#"> Full Stack Application</a>
+              <p> 
+                Coming soon!
+              </p>
+              </div>
+             
+            </div>
+            
+            
+            </div>
+          
         </div>
       </section>
 
