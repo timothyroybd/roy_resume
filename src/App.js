@@ -45,7 +45,7 @@ function App() {
             <a href= "#experience"> Experience </a>
             <a href= "#skills"> Skills  </a>
             <a href= "#project"> Projects  </a>
-            <a href= "#about_me"> Education</a>
+            <a href= "#education"> Education</a>
             <a href= "#about_me"> CV PDF</a>
                   
          
@@ -238,10 +238,11 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section id = "education">
+        <h1> Education</h1>
         <div>
           <h2> Msc. Economics and Business Analytics - JKU </h2>
-          <p> March 2022 - Present</p>
+          <span> March 2022 - Present</span>
           <ul>
             <li>
               Specialized in economics and data analytics, using programming and
@@ -257,7 +258,7 @@ function App() {
         </div>
         <div>
           <h2> BA International Business Administration </h2>
-          <p> August 2015 - May 2019</p>
+          <span> August 2015 - May 2019</span>
           <ul>
             <li>
               North American style education emphasizing finance, marketing, and

@@ -58,6 +58,22 @@ ul {
   text-align: center;
 }
 
+ span {
+  font-size: 1.2rem;
+  color: #59526fbd;
+}
+
+ ul {
+  padding: 15px 30px;
+
+
+}
+
+ ul li {
+  padding-bottom: 15px;
+
+}
+
 :root {
   --sidebar-width: 305px;
   --header-background: #4b406a;
@@ -126,7 +142,7 @@ header > p {
 /* ===============
     Experience
   ================= */
-#experience span {
+/* #experience span {
  font-size: 1.2rem;
  color: #59526fbd;
 }
@@ -138,7 +154,7 @@ header > p {
 #experience ul li {
   padding-bottom: 15px;
   
-}
+} */
 
 /* ===============
     Skills
@@ -216,10 +232,15 @@ header > p {
   flex-wrap: nowrap;
 }
   .project_item {
+    padding: 10px 6px;
     border: 1px ridge;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(169, 169, 169) ;
+    transition: transform 0.32s ease-in;
   }
+    .project_item:hover {
+      transform: scale(1.1);
+    }
 .project_icon {
   padding: 52px 60px;
 
@@ -242,3 +263,7 @@ header > p {
  text-align: center;
  padding-bottom: 20px;
 }
+
+/* ===============
+    Education
+  ================= */
