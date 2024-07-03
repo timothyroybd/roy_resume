@@ -28,3 +28,41 @@
           </a>
         </div>
         </div>
+
+
+
+
+    <!--  -->
+        <div className='flex_container'>
+            <div className="flex-item">
+                <h2>Development</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>CMS</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div className="flex-item">
+                <h2>Data Analytics</h2>
+                <ul>
+                    <li>R</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>Statistics</li>
+                </ul>
+            </div>
+            <div className="flex-item">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Effective communication</li>
+                    <li>Problem-solving</li>
+                    <li>Critical thinking</li>
+                    <li>Adaptability</li>
+                    <li>Team work</li>
+                </ul>
+            </div>
+        </div>
