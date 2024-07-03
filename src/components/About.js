@@ -1,4 +1,5 @@
-import '../App.css';
+import '../styles/App.css';
+import "../styles/About.css"
 export default function About() {
   return (
     <article id="about_me">

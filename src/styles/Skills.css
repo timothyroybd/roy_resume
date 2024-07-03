@@ -1,0 +1,59 @@
+
+
+
+#skills .flex-item {
+  font-size: 6rem;
+  padding: 25px 50px;
+}
+#skills p {
+  font-size: 1.32rem;
+  color: black;
+  text-align: center;
+}
+#skills .flex-item {
+  color: #454444;
+}
+#skills .flex-item:nth-child(1):hover {
+    color: #E54C21;
+}
+#skills .flex-item:nth-child(2):hover {
+  
+  color: #3C9CD7;
+}
+#skills .flex-item:nth-child(3):hover {
+
+  color: #FFD93D;
+}
+#skills .flex-item:nth-child(4):hover {
+
+  color: #00DCFF;
+}
+#skills .flex-item:nth-child(5):hover {
+
+  color: #589850;
+}
+#skills .flex-item:nth-child(6):hover {
+
+  color: #32373C;
+}
+#skills .flex-item:nth-child(7):hover {
+
+  color: #000;
+}
+#skills .flex-item:nth-child(8):hover {
+
+  color: #5382A9;
+}
+#skills .flex-item:nth-child(9):hover {
+
+  color: #206BC0;
+}
+#skills .flex-item:nth-child(10):hover {
+
+  color: #4270C4;
+}
+#skills .flex-item:nth-child(11):hover {
+
+  color: #000000;
+}
+

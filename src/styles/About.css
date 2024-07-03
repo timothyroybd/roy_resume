@@ -1,0 +1,10 @@
+#about_me {
+
+
+    line-height: 1.5;
+    border-bottom: 1px solid var(--header-background);
+}
+
+#about_me>p {
+    padding-bottom: 15px;
+}

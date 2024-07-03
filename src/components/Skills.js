@@ -11,7 +11,8 @@ import { faWordpress } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 
-import '../App.css';
+import '../styles/App.css';
+import '../styles/Skills.css'
 export default function Skills() {
   return (
     <>
