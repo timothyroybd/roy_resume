@@ -1,4 +1,5 @@
 import '../styles/App.css';
+import '../styles/Responsive.css'
 export default function Education() {
   return (
     <>

@@ -3,6 +3,7 @@ import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
 import { faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 import '../styles/App.css';
 import '../styles/Projects.css'
+import '../styles/Responsive.css'
 export default function Projects() {
   return (
     <>

@@ -1,7 +1,9 @@
 import '../styles/App.css';
+import '../styles/Responsive.css'
 export default function Experience() {
   return (
     <>
+    <div className='exp_res'>
       <h1>Experience</h1>
       <div>
         <h2> IT Manager - Plastrans Technologies </h2>
@@ -42,6 +44,7 @@ export default function Experience() {
           </li>
           <li>Email marketing using Klaviyo</li>
         </ul>
+      </div>
       </div>
     </>
   );

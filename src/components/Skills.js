@@ -13,6 +13,7 @@ import { faReact } from '@fortawesome/free-brands-svg-icons';
 
 import '../styles/App.css';
 import '../styles/Skills.css'
+import '../styles/Responsive.css'
 export default function Skills() {
   return (
     <>

@@ -1,5 +1,6 @@
 import '../styles/App.css';
 import "../styles/About.css"
+import '../styles/Responsive.css'
 export default function About() {
   return (
     <article id="about_me">

@@ -4,6 +4,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import '../styles/App.css';
 import '../styles/Header.css'
+import '../styles/Responsive.css'
 export default function Header (){
     return(
         <>
