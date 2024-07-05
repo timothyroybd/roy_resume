@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/timothyroybd/roy_resume/static/css/main.da34da91.css",
+    "main.js": "/timothyroybd/roy_resume/static/js/main.1019bc58.js",
+    "index.html": "/timothyroybd/roy_resume/index.html",
+    "main.da34da91.css.map": "/timothyroybd/roy_resume/static/css/main.da34da91.css.map",
+    "main.1019bc58.js.map": "/timothyroybd/roy_resume/static/js/main.1019bc58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da34da91.css",
+    "static/js/main.1019bc58.js"
+  ]
+}
