@@ -20,6 +20,8 @@ export default function Header (){
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
+        
+       
 
         <nav className="nav_menu">
           <a href="#about_me"> About Me </a>
@@ -27,8 +29,12 @@ export default function Header (){
           <a href="#skills"> Skills </a>
           <a href="#project"> Projects </a>
           <a href="#education"> Education</a>
-          <a href="#about_me"> CV PDF</a>
+          <a href="https://drive.google.com/file/d/1_b7G6EbEdIGLea8dJo0xdN2mWqp2apkX/view?usp=sharing" target='_blank'> CV PDF</a>
         </nav>
+
+       
+
+       
         
         </>
     )

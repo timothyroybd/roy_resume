@@ -1,3 +1,4 @@
+
 .header {
     background-color: var(--header-background);
 
@@ -19,6 +20,8 @@ header>p {
     color: white;
     font-size: 1.3rem;
 }
+
+
 
 .nav_menu {
     list-style-type: none;
