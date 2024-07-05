@@ -29,7 +29,7 @@ export default function Header (){
           <a href="#skills"> Skills </a>
           <a href="#project"> Projects </a>
           <a href="#education"> Education</a>
-          <a href="https://drive.google.com/file/d/1_b7G6EbEdIGLea8dJo0xdN2mWqp2apkX/view?usp=sharing" target='_blank'> CV PDF</a>
+          <a href="https://drive.google.com/file/d/1V7R3WxMInjNcFg9aJ2qXI1hOC7jvn25p/view?usp=sharing" target='_blank'> CV PDF</a>
         </nav>
 
        
