@@ -12069,7 +12069,7 @@ a.text-dark:focus {
 }
 
 p {
-    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+    font-size: calc(18px + (16 - 14) * ((100vw - 320px) / (1200 - 320) * 0.5));
     margin-bottom: 1px;
     letter-spacing: .6px;
 }
@@ -12830,5 +12830,12 @@ pre {
 }
 
 .project-links {
+    margin-top: 10px;
+}
+.experience-item li {
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+.experience-item ul {
     margin-top: 10px;
 }
