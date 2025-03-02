@@ -420,7 +420,8 @@ h4,
 
 h5,
 .h5 {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
 }
 
 h6,
@@ -12069,7 +12070,7 @@ a.text-dark:focus {
 
 p {
     font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
-    margin-bottom: 12px;
+    margin-bottom: 1px;
     letter-spacing: .6px;
 }
 
@@ -12294,13 +12295,13 @@ pre {
 
 .custom-card:hover,
 .custom-card:active {
-    background: #ff7a57;
-    color: #fff;
+    /* background: #ff7a57; */
+    /* color: #fff;  */
 }
 
 .custom-card:hover i,
 .custom-card:active i {
-    color: #fff;
+    /* color: #fff; */
 }
 
 .testmonial-card {
@@ -12754,7 +12755,7 @@ pre {
 
 .section {
     position: relative;
-    padding: 5rem 0;
+    padding: 2.5rem 0;
 }
 
 .section:nth-child(even) {
@@ -12767,4 +12768,67 @@ pre {
 
 .section.bg-gray {
     background: white;
+}
+.popup {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 12px;
+}
+.about_me {
+    line-height: 1.7;
+}
+.project-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project-icon {
+    font-size: 24px;
+    color: #ff7a57;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* .project-icon:hover {
+    color: #ff3d0b;
+} */
+
+.custom-card {
+    transition: all 0.3s ease-in-out;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f8f9fa;
+}
+
+/* .custom-card:hover {
+    background: #eaf0fc;
+    transform: translateY(-5px);
+} */
+
+.icon {
+    font-size: 40px;
+    color: #ff7a57;
+}
+.project_description {
+    font-size: 0.95rem !important;
+}
+
+.project-links a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.project-links img,
+.project-links i {
+    margin-top: 0;
+}
+
+.project-links {
+    margin-top: 10px;
 }

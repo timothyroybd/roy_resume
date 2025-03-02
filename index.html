@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Steller landing page.">
-    <meta name="author" content="Devcrud">
+  
     <title>Steller Landing page | Free Bootstrap 4.1 landing page</title>
     <!-- font icons -->
     <link rel="stylesheet" href="./style.css">
     <!-- Bootstrap + Steller main styles -->
     <link rel="stylesheet" href="./themify-icons.css">
+    <script src = "script.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -18,7 +18,7 @@
     <!-- Page navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.svg" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="./logo.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,23 +33,21 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#service">Service</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -60,42 +58,35 @@
     <header class="header" id="home">
         <div class="container">
             <div class="infos">
-                <h6 class="subtitle">hello,I'm</h6>
-                <h6 class="title">James Smith</h6>
-                <p>UI/UX Designer</p>
+                
+                <h6 class="title">Timothy Roy</h6>
+                <p>Aspiring Software Developer | Data Analyst</p>
 
                 <div class="buttons pt-3">
-                    <button class="btn btn-primary rounded">HIRE ME</button>
-                    <button class="btn btn-dark rounded">DOWNLOAD CV</button>
+                    <a class="btn btn-primary rounded" href="https://www.linkedin.com/in/timothy-roy-266612121/">LinkedIn</a>
+                   
+                    <a class="btn btn-dark rounded" href=" https://docs.google.com/document/d/16PFNYe6JT3lLRGRkqqcYXS86bN7U_XpnakVDYNGRyoU/edit?usp=sharing">DOWNLOAD CV</a>
+                    
                 </div>
 
                 <div class="socials mt-4">
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                    
+                    <a class="social-item" href="https://github.com/timothyroybd"><i class="ti-github"></i></a>
+                <!-- Email Icon -->
+                <a class="social-item" href="mailto:timothyroy2011@gmail.com" onclick="copyEmail(event, this)">
+                    <i class="ti-email"></i>
+                </a>
+                
+                <!-- Pop-up -->
+                <span id="copyPopup" class="popup">Copied!</span>
+                    
+             
                 </div>
             </div>
-            <div class="img-holder">
-                <img src="assets/imgs/man.svg" alt="">
-            </div>
+           
         </div>
 
-        <!-- Header-widget -->
-        <div class="widget">
-            <div class="widget-item">
-                <h2>124</h2>
-                <p>Happy Clients</p>
-            </div>
-            <div class="widget-item">
-                <h2>456</h2>
-                <p>Project Completed</p>
-            </div>
-            <div class="widget-item">
-                <h2>789</h2>
-                <p>Awards Won</p>
-            </div>
-        </div>
+    
     </header>
     <!-- End of Page Header -->
 
@@ -103,409 +94,369 @@
     <section id="about" class="section mt-3">
         <div class="container mt-5">
             <div class="row text-center text-md-left">
-                <div class="col-md-3">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="img-thumbnail mb-4">
-                </div>
+                
                 <div class="pl-md-4 col-md-9">
-                    <h6 class="title">James Smith</h6>
-                    <p class="subtitle">UI/UX Designer</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, pariatur, aperiam aut autem
-                        voluptas odit. Odio ducimus delectus totam sed aliquam sequi praesentium mollitia, illum
-                        repudiandae quidem quod, magni magnam.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, eius, nam. Quo praesentium qui
-                        temporibus voluptatum, facilis aliquid eligendi fugiat beatae neque inventore non. Laborum
-                        repellendus consequatur ullam voluptatum asperiores.</p>
-                    <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>
+                    <h6 class="title">Timothy Roy</h6>
+                    <p class="subtitle">Software Developer & Data Analyst</p>
+                    <p class="py-2 about_me">I’m a Master's student in Economics and Business Analytics at JKU and a self-taught developer passionate about building
+                    software solutions. With experience in full-stack development using React, Node.js, Express, and MongoDB, I’m
+                    continuously expanding my skill set and open to learning new technologies. Currently, I'm looking for opportunities to
+                    transition into a software development career.</p>
+                    <a class="btn btn-primary rounded"
+                        href=" https://docs.google.com/document/d/16PFNYe6JT3lLRGRkqqcYXS86bN7U_XpnakVDYNGRyoU/edit?usp=sharing">DOWNLOAD
+                        CV</a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Service section -->
-    <section id="service" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Service</h6>
-            <h6 class="section-title mb-4">What I Do</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
-                rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-crown"></i>
-                            <h5>UI/UX Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-desktop"></i>
-                            <h5>Web Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-mobile"></i>
-                            <h5>App Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border">
-                        <div class="card-body">
-                            <i class="icon ti-bar-chart"></i>
-                            <h5>SEO</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Sectoin -->
-
-    <!-- Skills section -->
-    <section class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Skills</h6>
-            <h6 class="section-title mb-4">Why Choose me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
-                rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row text-left">
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Photoshop</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">Web Design</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">App Design</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h6 class="mb-3">SEO</h6>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25"
-                            aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of Skills sections -->
-
-    <!-- Portfolio section -->
-    <section id="portfolio" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Portfolio</h6>
-            <h6 class="section-title mb-4">Check My Wonderful Works</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
-                rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-1.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-2.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-3.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-4.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-5.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/imgs/folio-6.jpg" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- End of portfolio section -->
-
-    <!-- Testmonial Section -->
-    <section id="testmonial" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">Testmonial</h6>
-            <h6 class="section-title mb-4">What People Say About Me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
-                rerum commodi corrupti, temporibus non quam.</p>
-
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card testmonial-card border">
-                            <div class="card-body">
-                                <img src="assets/imgs/avatar-1.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates
-                                    in enim vel amet?</p>
-                                <h1 class="title">Emma Re</h1>
-                                <h1 class="subtitle">Graphic Designer</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card testmonial-card border">
-                            <div class="card-body">
-                                <img src="assets/imgs/avatar-2.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates
-                                    in enim vel amet?</p>
-                                <h1 class="title">James Bert</h1>
-                                <h1 class="subtitle">Web Designer</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card testmonial-card border">
-                            <div class="card-body">
-                                <img src="assets/imgs/avatar-3.jpg" alt="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nostrum voluptates
-                                    in enim vel amet?</p>
-                                <h1 class="title">Michael Abra</h1>
-                                <h1 class="subtitle">Web Developer</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of testmonial section -->
-
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-        <div class="container text-center">
-            <h6 class="subtitle">My Blogs</h6>
-            <h6 class="section-title mb-4">Latest News</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
-                rerum commodi corrupti, temporibus non quam.</p>
-
-            <div class="row text-left">
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Designe for Everyone</h5>
-                            <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
-                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit,
-                                minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Web Layouts</h5>
-                            <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
-                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit,
-                                minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-3.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Bootstrap Framework</h5>
-                            <div class="post-details">
-                                <a href="javascript:void(0)">Posted By: Admin</a>
-                                <a href="javascript:void(0)"><i class="ti-thumb-up"></i> 456</a>
-                                <a href="javascript:void(0)"><i class="ti-comment"></i> 123</a>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit,
-                                minima? Voluptas nemo harum impedit nisi.</p>
-                            <a href="javascript:void(0)">Read More..</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
+    <!-- Experience Section -->
+    <section id="experience" class="section">
         <div class="container">
-            <div class="card bg-primary">
-                <div class="card-body text-light">
-                    <div class="row align-items-center">
-                        <div class="col-sm-9 text-center text-sm-left">
-                            <h5 class="mt-3">Hire Me For Your Project</h5>
-                            <p class="mb-3">Accusantium labore nostrum similique quisquam.</p>
+           
+            <h6 class="section-title mb-4 ">Experience</h6>
+          
+    
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="experience-item">
+                        <h5>Full Stack Developer</h5>
+                        <p class="text-muted small">Mental-Pixel | January 2025 - Present | Linz, Austria</p>
+                        <ul>
+                            <li>Developing software for a start-up to connect developers with recruiters using React,
+                                Express, Node.js, and Cloudways.</li>
+                            <li>Designing and implementing user-friendly interfaces and backend functionality.</li>
+                            <li>Collaborating with cross-functional teams to gather requirements and ensure seamless
+                                integration.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="experience-item">
+                        <h5>IT Manager</h5>
+                        <p class="text-muted small">Plastrans Technologies | May 2022 - Present | Linz, Austria</p>
+                        <ul>
+                            <li>Assist staff with daily IT issues, providing timely support and solutions to the users.</li>
+                            <li>Automate HR vacation request processes using O365.</li>
+                            <li>Automatized manual data collection and reporting that increases efficiency by 10%.</li>
+                            <li>Create and manage cybersecurity awareness videos to educate and protect the team.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="experience-item">
+                        <h5>eCommerce Specialist</h5>
+                        <p class="text-muted small">Brikly | 2020 - 2022 | Remote (Canada)</p>
+                        <ul>
+                            <li>Created eCommerce websites using Shopify.</li>
+                            <li>Created monthly and quarterly reports using Google Analytics and Shopify Analytics.</li>
+                            <li>Integrated and experimented with different 3rd party web APIs such as Image processing
+                                through Nanonets platform.</li>
+                            <li>Conducted email marketing using Klaviyo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <div class="container mt-5" id="education">
+        <div class="row">
+            <div class="col-md-6">
+                <section  class="section">
+                    <h6 class="section-title mb-4">Education</h6>
+                    <div class="education-item mb-4">
+                        <h5>Economics and Business Analytics</h5>
+                        <p class="text-muted small">Johannes Kepler University • Linz, Austria • 2022 - Present (expected graduation 2025)</p>
+                    </div>
+                    <div class="education-item mb-4">
+                        <h5>International Business and Administration</h5>
+                        <p class="text-muted small">LCC International University • Klaipeda, Lithuania • 2019 • 8.7 (honor listed)</p>
+                    </div>
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section id="certifications" class="section">
+                    <h6 class="section-title mb-4">Certifications</h6>
+                    <div class="certification-item mb-4">
+                        <h5>Web Development Bootcamp</h5>
+                        <p class="text-muted small">Udemy • 2020</p>
+                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-b633d30a-ccb0-4038-b87e-f4e8c7b23af6.pdf" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="certification-item mb-4">
+                        <h5>Javascript Algorithms and Data Structure</h5>
+                        <p class="text-muted small">freeCodeCamp • 2019</p>
+                        <a href="https://www.freecodecamp.org/certification/troy15/javascript-algorithms-and-data-structures" target="_blank">View Certificate</a>
+                    </div>
+                    <div class="certification-item mb-4">
+                        <h5>Responsive Web Design</h5>
+                        <p class="text-muted small">freeCodeCamp • 2019</p>
+                        <a href="https://www.freecodecamp.org/certification/troy15/responsive-web-design" target="_blank">View Certificate</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+<section id="projects" class="section">
+    <div class="container text-center">
+        <h6 class="section-title mb-4">Projects</h6>
+        <div class="row">
+            <!-- Backend Project -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="custom-card card border text-center">
+                    <div class="card-body">
+                        <i class="icon ti-server"></i>
+                        <h5 class="mt-3">Relational Database</h5>
+                        <p class="project_description">Designed a scalable relational database for developers and company info.</p>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/timothyroybd/ready2work_frontend" target="_blank">
+                                <img src="./github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+                            </a>
                         </div>
-                        <div class="col-sm-3 text-center text-sm-right">
-                            <button class="btn btn-light rounded">Hire Me!</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bookstore API -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="custom-card card border text-center">
+                    <div class="card-body">
+                        <i class="icon ti-book"></i>
+                        <h5 class="mt-3">Bookstore API</h5>
+                        <p class="project_description">Developed a RESTful API for managing book sales and inventory.</p>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/timothyroybd/bookstore_api" target="_blank">
+                                <img src="./github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- React Country Filter -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="custom-card card border text-center">
+                    <div class="card-body">
+                        <i class="icon ti-flag"></i>
+                        <h5 class="mt-3">Country Filter App</h5>
+                        <p class="project_description">Built a React app to search and filter countries with flag visualization.</p>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/timothyroybd/rest_countries" target="_blank">
+                                <img src="./github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stock Visualization -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="custom-card card border text-center">
+                    <div class="card-body">
+                        <i class="icon ti-bar-chart"></i>
+                        <h5 class="mt-3">Stock Visualization</h5>
+                        <p class="project_description">Developed a dashboard for real-time stock data analysis.</p>
+                        <div class="project-links mt-3">
+                            <a href="https://github.com/timothyroybd/stock-viz" target="_blank">
+                                <img src="./github.svg" alt="GitHub" style="width: 24px; height: 24px;">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End od Hire me section. -->
+        <div class="mt-4">
+            <a class="btn btn-primary rounded" href="https://github.com/timothyroybd" target="_blank">See more projects on GitHub</a>
+        </div>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="position-relative section">
-        <div class="container text-center">
-            <h6 class="subtitle">Contact</h6>
-            <h6 class="section-title mb-4">Get In Touch With Me</h6>
-            <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br>
-                rerum commodi corrupti, temporibus non quam.</p>
+<!-- Education and Certification -->
 
-            <div class="contact text-left">
-                <div class="form">
-                    <h6 class="subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-4">Get In Touch</h6>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Password" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control"
-                                placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Send Message</button>
-                    </form>
+
+<section class="section" id="skills">
+    <div class="container text-center">
+        <h6 class="section-title mb-4 pb-3">Technical Skills</h6>
+
+        <!-- Programming & Software Development -->
+        <!-- <h6 class="subtitle mt-4">Software Development</h6> -->
+        <div class="row text-left">
+            <div class="col-sm-6">
+                <h6 class="mb-3">HTML5 & CSS3</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
                 </div>
-                <div class="contact-infos">
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p> 12345 Fake ST NoWhere AB Country</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>(123) 456-7890</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>info@website.com</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">JavaScript</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">React</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Node.js & Express</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">MongoDB</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100"><span>70%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Deployment (Vercel, Netlify)</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
                 </div>
             </div>
         </div>
-        <div id="map">
-            <iframe src="https://snazzymaps.com/embed/61257"></iframe>
+
+        <!-- Data Analytics & Machine Learning -->
+        <!-- <h6 class="section-title mt-5">Data Analytics & Machine Learning</h6> -->
+        <div class="row text-left">
+            <div class="col-sm-6">
+                <h6 class="mb-3">Python</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">R Programming</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100"><span>70%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Statistics</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Machine Learning (Interested)</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="60"
+                        aria-valuemin="0" aria-valuemax="100"><span>60%</span></div>
+                </div>
+            </div>
         </div>
-    </section>
-    <!-- End of Contact Section -->
+
+        <!-- Office 365 & Automation -->
+        <h6 class="section-title mt-5 mb-4 pb-3">Office 365 & Automation</h6>
+        <div class="row text-left">
+            <div class="col-sm-6">
+                <h6 class="mb-3">Office 365 Administration</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Power Automate</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                        aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Power Apps</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Excel & Automation</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                        aria-valuemin="0" aria-valuemax="100"><span>85%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Dynamics 365</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Language Skills -->
+        <h6 class="section-title mt-5 mb-4 pb-3">Languages</h6>
+        <div class="row text-left">
+            <div class="col-sm-6">
+                <h6 class="mb-3">English (C1)</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">German (A2 → B1)</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 40%;" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100"><span>50%</span></div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <h6 class="mb-3">Bengali (Native)</h6>
+                <div class="progress">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;" aria-valuenow="100"
+                        aria-valuemin="0" aria-valuemax="100"><span>100%</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+   
 
     <!-- Page Footer -->
-    <footer class="page-footer">
+    <footer class="page-footer" id="contact">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <p>Copyright
-                        <script>document.write(new Date().getFullYear())</script> &copy; <a
-                            href="http://www.devcrud.com" target="_blank">DevCRUD</a>
+                <!-- Copyright & Name -->
+                <div class="col-md-6 text-center text-md-left">
+                    <p>Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script> Timothy Roy. All rights reserved.
                     </p>
                 </div>
-                <div class="col-sm-6">
-                    <div class="socials">
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+    
+                <!-- Contact Info & Social Links -->
+                <div class="col-md-6 text-center text-md-right">
+                    <div class="footer-contact">
+                        <p>Email: <a href="mailto:timothyroy2011@gmail.com">timothyroy2011@gmail.com</a></p>
+                        <p>Phone: <a href="tel:+43067764817987">+43 0677 6481 7987</a></p>
+                    </div>
+                    <div class="socials mt-2">
+                        <a class="social-item" href="https://github.com/timothyroybd" target="_blank"><i
+                                class="ti-github"></i></a>
+                        <a class="social-item" href="https://www.linkedin.com/in/timothy-roy-266612121/" target="_blank"><i
+                                class="ti-linkedin"></i></a>
+                        <a class="social-item" href="mailto:timothyroy2011@gmail.com"><i class="ti-email"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+
     <!-- End of page footer -->
 
     <!-- core  -->
